@@ -47,8 +47,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  align-items: center;
 }
 .header-menu {
   padding-bottom: 24px;
@@ -125,6 +123,8 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1440px;
+  margin: 0 auto;
 }
 .hero-title {
   color: var(--body-color);
@@ -194,7 +194,9 @@ ul {
   height: 112px;
   background: var(--icons);
   border-radius: 4px;
-  padding: 24px 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-bottom: 8px;
 }
 .svg-use {
@@ -319,16 +321,12 @@ ul {
 }
 
 .footer {
-  padding: 100px;
+  padding: 100px 0;
 
   background: var(--pramery-text-color);
 }
 .content {
   display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 .footer-logo {
   color: var(--button);
